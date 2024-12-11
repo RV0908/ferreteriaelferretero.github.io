@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+  nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
+  }
+
+ul li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a{
+
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+img {
+  height: 150px; /* Ajusta el tamaño del logo */
+}
+
+.nav-links a:hover {
+  text-decoration: underline; /* Efecto al pasar el mouse */
+}
+
+
+
+.fondo {
+  background-image: url('img/her.jpg'); /* Cambia esta ruta por la de tu imagen */
+  background-size: cover; /* Cubr todo el fondo */
+  background-repeat: no-repeat; /* No repetir la imagen */
+  height: 100vh; /* Altura del fondo, puede ajustarse */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido {
+  background-color: white; /* Fondo blanco para el texto */
+  padding: 20px;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(185, 149, 149, 0.1); /* Sombra para el contenedor */
+}
+
+
+
+.header-container {
+  background-image: url('img/herr2.jpg'); /* replace with your background image */
+  background-size: cover;
+  height: 100vh; /* adjust the height to your liking */
+  padding-top: 20px; /* add some padding to move the nav down a bit */
+}
+
+.nav-container {
+  background-color: rgba(255, 255, 255, 0.8); /* adjust the background color and opacity */
+  padding: 10px; /* reduce padding to make the nav bar thinner */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(243, 243, 243, 0.2);
+}
+
+
+h1{
+  margin-top: 50px;
+  color: white;
+}
+
+/* Estilo para la barra */
+.barra-bienvenida {
+  background-color: white; /* Color de fondo (puedes cambiarlo) */
+  padding: 20px;             /* Espaciado interno */
+  margin: 0 auto;            /* Centrado automático */
+  width: 80%;                 /* Ancho de la barra (ajusta según necesites) */
+  max-width: 600px;          /* Ancho máximo para pantallas grandes */
+  border-radius: 8px;        /* Bordes redondeados (opcional) */
+}
+
+/* Estilo para el texto */
+.texto-bienvenida {
+  font-family: Arial, sans-serif; /* Fuente Arial */
+  font-weight: lighter;              /* Negrita */
+  text-align: center;             /* Centrado */
+  font-size: 19px;                /* Tamaño de fuente (ajusta según necesites) */
+  color: #000000;                 /* Color del texto (blanco para contraste) */
+  margin: 0;                      /* Sin margen alrededor del texto */
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.portfolio img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.titulo-porta{
+  color: #000000;
+}
+
+
+
